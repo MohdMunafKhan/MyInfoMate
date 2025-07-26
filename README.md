@@ -10,7 +10,7 @@
   Get real-time weather updates for Indian cities using OpenWeatherMap API.
 
 - 🎬 **Movie Search**  
-  Search for movies by title and get poster, ratings, year, and more using OMDb API.
+  Search for movies by title and get poster, ratings, year, and more using TMDb API.
 
 - 🎉 **Indian Public Holidays**  
   View upcoming holidays based on Calendarific API, displayed in a responsive table.
