@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* Weather Page*/
+
+.weather{
+  background-image: url("assets/weather-back.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+@keyframes fadeSlideUp{
+  0%{
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.weather-card {
+  animation: fadeSlideUp 0.8s ease-out forwards;
+  opacity: 0;
+  animation: fadeSlideUp 0.8s ease-out 0.2s forwards;
+}
+
+/* Movies Page*/
+.movies{
+  background: linear-gradient(180deg, #1c2526, #2a3b47);
+  min-height: 100vh;
+}
+
+.movie-card{
+  background: linear-gradient(180deg, #1c2526, #2a3b47);
+  box-shadow: 4px 4px 8px rgba(0, 0, 50, 0.6);
+  animation: fadeSlideUp 0.8s ease-out forwards;
+  opacity: 0;
+  animation: fadeSlideUp 0.8s ease-out 0.2s forwards;
+}
+
+.movie-card img{
+  height: 350px;
+  width: 100%;
+}
+
+/* Holiday Page*/
+.holidays{
+  background: linear-gradient(180deg, #1c2526, #2a3b47);
+  min-height: 100vh;
+}
+
+.holiday-table{
+  box-shadow: 4px 4px 8px rgba(0, 0, 50, 0.6);
+}
+
+
+/* Dictionary Page*/
+.dict{
+  background: linear-gradient(180deg, #1c2526, #2a3b47);
+  min-height: 100vh;
+}
+
+/* Home Page */
+.home{
+  background: #091f36;
+  min-height: 100vh;
+  color: black;
+}
+
+.home-about p{
+  text-align: justify;
+}
+
+.card-img img{
+  width: 100%;
+  height: 200px;
+}
+
+.api-card{
+  box-shadow: 0 8px 20px black;
+  transition: all 0.3s ease-in-out;
+  animation: fadeSlideUp 0.8s ease-out forwards;
+  opacity: 0;
+  animation: fadeSlideUp 0.8s ease-out 0.2s forwards;
+}
+
+.api-card:hover{
+  transform: translateY(-6px);
+}
+
+/* Footer Page*/
+
+.info-box p{
+  text-align: justify;
+}
+.links-box ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links-box li a{
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  font-size: 18px;
+}
+
+.links-box li a:hover{
+  color: gray;
+}
+
+.contact-box a{
+  transition: all 0.3s ease-in-out;
+}
+
+.end-foot{
+  background-color: rgb(27, 27, 27);
+}
